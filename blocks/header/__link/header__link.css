@@ -11,6 +11,10 @@
   margin-right: 18px;
 }
 
+.header__link:hover {
+  opacity: 80%;
+}
+
 @media screen and (max-width: 320px) {
   .header__link {
     font-size: 18px;
