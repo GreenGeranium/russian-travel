@@ -48,7 +48,7 @@
   src: url("Inter-LightItalic.woff2?v=3.19") format("woff2"),
        url("Inter-LightItalic.woff?v=3.19") format("woff");
 }
-
+/*используется*/
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -99,7 +99,7 @@
   src: url("Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"),
        url("Inter-SemiBoldItalic.woff?v=3.19") format("woff");
 }
-
+/*используется*/
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -133,7 +133,7 @@
   src: url("Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
        url("Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
 }
-
+/*используется*/
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
