@@ -5,3 +5,24 @@
   max-width: 984px;
   margin: 56px auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    margin: 48px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 768px;
+    margin: 48px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 320px;
+    margin: 48px auto;
+  }
+} 
