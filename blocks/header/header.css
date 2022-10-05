@@ -4,3 +4,16 @@
   padding-top: 28px;
   margin: 0 48px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 16px;
+    margin: 0 16px;
+  }
+} 
