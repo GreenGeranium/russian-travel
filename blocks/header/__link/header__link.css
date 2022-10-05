@@ -12,3 +12,10 @@
   text-decoration: underline;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+} 
