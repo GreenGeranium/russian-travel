@@ -10,8 +10,6 @@
 .header__link:first-of-type {
   margin-right: 18px;
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 320px) {
   .header__link {
@@ -19,4 +17,3 @@
     line-height: 20px;
   }
 } 
->>>>>>> feature/header
