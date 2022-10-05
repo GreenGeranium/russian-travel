@@ -8,10 +8,5 @@
 }
 
 .header__link:first-of-type {
-  text-decoration: underline;
   margin-right: 18px;
-}
-
-.header__link:hover {
-  opacity: 80%;
 }
