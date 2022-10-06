@@ -6,6 +6,10 @@
   margin-bottom: 80px;
 }
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
   .place {
     margin-bottom: 48px;
