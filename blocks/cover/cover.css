@@ -2,7 +2,7 @@
   max-width: 1184px;
   width: 100%;
   height: 740px;
-  margin: 0 48px 92px;
+  margin: 0 auto 92px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -13,7 +13,7 @@
   opacity: 0.3;
   background-image: url("/images/__background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   left: 0;
   top: 0;
@@ -28,7 +28,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
     height: 640px;
     margin: 0 0 92px;
   }
@@ -36,7 +35,6 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
     height: 480px;
     margin: 0 0 88px;
   }
@@ -44,7 +42,6 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 320px;
     height: 200px;
     margin: 0 0 64px;
   }
