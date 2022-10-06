@@ -11,7 +11,7 @@
 .cover::before {
   content: " ";
   opacity: 0.3;
-  background-image: url("/images/__background.png");
+  background-image: url(../../images/__background.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
