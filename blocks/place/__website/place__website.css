@@ -1,0 +1,26 @@
+.place__website {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  grid-area: website;
+  color: #AAAAAA;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  align-self: flex-end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 16px 32px;
+  }
+}

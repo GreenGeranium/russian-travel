@@ -1,0 +1,24 @@
+.place {
+  display: grid;
+  grid-template-areas: 
+  "title website"
+  "image text";
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin-bottom: 50px;
+    grid-template-areas: 
+    "title"
+    "website"
+    "image" 
+    "text";
+  }
+}

@@ -1,28 +1,27 @@
-.lead {
+.places {
+  margin: 92px 148px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-width: 984px;
-  margin: 56px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
+  .places {
+    margin: 92px 48px;
     max-width: 928px;
-    margin: 48px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    width: 768px;
-    margin: 48px auto;
+  .places {
+    margin: 88px 24px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead {
-    width: 320px;
-    margin: 48px auto;
+  .places {
+    margin: 64px 0;
+    max-width: 320px;
   }
 }
