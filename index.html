@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="./styles/fonts.css">
   <link rel="stylesheet" href="./pages/index.css">
   <meta name="author" content="Максим Грасси">
   <base target="_blank">
@@ -24,8 +23,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/__image.png" alt="Девушка спит в плацкарте" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img src="./images/__image.png" alt="Девушка спит в плацкарте" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -36,11 +37,11 @@
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__item">Часовых поясов 11</li>
-          <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__item">Природных заповедников 105</li>
-          <li class="intro__item">Аэропортов 241</li>
+          <li class="intro__item"><span class="intro__item_bold">Часовых поясов</span> 11</li>
+          <li class="intro__item"><span class="intro__item_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__item"><span class="intro__item_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__item"><span class="intro__item_bold">Природных заповедников</span> 105</li>
+          <li class="intro__item"><span class="intro__item_bold">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -63,9 +64,10 @@
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/nikita-tikhomirov-1153188-unsplash.jpg" alt="Куршский залив" class="place__image">
-          <p class="place__website">URL
+          <div class="place__links">
+            <p class="place__website">URL</p>
             <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
-          </p>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -79,10 +81,11 @@
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img src="./images/m-r-760504-unsplash.jpg" alt="Горы покрытые снегом" class="place__image">
-          <p class="place__website">URL
+          <div class="place__links">
+            <p class="place__website">URL</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National
               Geographic</a>
-          </p>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
               на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -96,9 +99,10 @@
         <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img src="./images/nail-gilfanov-527808-unsplash.jpg" alt="Ноутбук на фоне леса" class="place__image">
-          <p class="place__website">URL
+          <div class="place__links">
+            <p class="place__website">URL</p>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
-          </p>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -112,9 +116,10 @@
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img src="./images/sergey-pesterev-1156037-unsplash.jpg" alt="Толстый слой льда" class="place__image">
-          <p class="place__website">URL
+          <div class="place__links">
+            <p class="place__website">URL</p>
             <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
-          </p>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
@@ -130,9 +135,10 @@
           <h2 class="place__title">Карелия</h2>
           <img src="./images/vladimir-fedotov-652306-unsplash.jpg" alt="Широкая река посреди дикого леса"
             class="place__image">
-          <p class="place__website">URL
+          <div class="place__links">
+            <p class="place__website">URL</p>
             <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
-          </p>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -150,19 +156,19 @@
             электричках.</p>
         </a>
       </section>
-      <footer class="footer">
-        <nav>
-          <ul class="footer__links">
-            <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-            <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-            <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-            <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-            <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-          </ul>
-        </nav>
-        <p class="footer__copyright">&copy; 2022. Максим Грасси</p>
-      </footer>
     </main>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2022. Максим Грасси</p>
+    </footer>
   </div>
 </body>
 
