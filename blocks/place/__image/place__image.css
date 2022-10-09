@@ -1,23 +1,5 @@
 .place__image {
   grid-area: image;
   width: 100%;
-  margin-right: 40px;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__image {
-    margin-right: 32px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    margin-right: 28px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__image {
-    margin-right: 0;
-  }
+  object-fit: contain;
 }
