@@ -15,7 +15,7 @@
   opacity: 0.3;
   background-image: url("../../../images/__background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center;
   position: absolute;
   left: 0;
