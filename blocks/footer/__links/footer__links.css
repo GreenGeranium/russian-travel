@@ -6,9 +6,16 @@
   column-gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .footer__links {
+    column-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer__links {
+    column-gap: 0;
     flex-direction: column;
-    gap: 32px;
+    row-gap: 32px;
   }
 }
