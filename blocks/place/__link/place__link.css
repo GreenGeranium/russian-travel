@@ -7,6 +7,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  word-break: break-all;
 }
 
 .place__link:hover {
