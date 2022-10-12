@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 490px) {
   .footer__links {
-    column-gap: 5px;
+    column-gap: 3px;
   }
 }
 
