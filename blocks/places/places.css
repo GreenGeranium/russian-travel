@@ -3,14 +3,12 @@
   padding: 0 148px;
   display: flex;
   flex-direction: column;
-  max-width: 984px;
   row-gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     padding: 0 48px;
-    max-width: 928px;
   }
 }
 
@@ -19,7 +17,6 @@
     row-gap: 73px;
     margin: 88px 0 90px;
     padding: 0 24px;
-    max-width: 720px;
   }
 }
 
@@ -28,6 +25,5 @@
     padding: 0;
     row-gap: 50px;
     margin: 64px 0 66px;
-    max-width: 320px;
   }
 }
