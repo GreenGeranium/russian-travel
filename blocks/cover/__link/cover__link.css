@@ -1,6 +1,9 @@
 .cover__link {
   text-decoration: none;
-  color: #FFFFFF;
+  background-image: url("../../../images/__background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 740px;
   width: 100%;
   display: flex;
@@ -12,16 +15,18 @@
 
 .cover__link::before {
   content: " ";
+  background-color: #2A2C2F;
   opacity: 0.3;
-  background-image: url("../../../images/__background.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

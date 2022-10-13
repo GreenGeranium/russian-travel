@@ -7,13 +7,8 @@
   justify-content: center;
 }
 
-.cover:hover {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
-    margin: 0 0 92px;
     padding: 0;
   }
 }
@@ -21,13 +16,11 @@
 @media screen and (max-width: 768px) {
   .cover {
     margin: 0 0 88px;
-    padding: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     margin: 0 0 64px;
-    padding: 0;
   }
 }

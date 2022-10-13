@@ -6,6 +6,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
+  color: #FFFFFF;
+  position: relative;
 }
 
 @media screen and (max-width: 320px) {
