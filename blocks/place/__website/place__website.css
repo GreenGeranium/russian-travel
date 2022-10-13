@@ -4,13 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 12px;
   letter-spacing: 2px;
-}
-
-@media screen and (max-width: 768px) {
-  .place__website {
-    line-height: 12px;
-  }
 }
 

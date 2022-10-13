@@ -51,10 +51,5 @@
     row-gap: 0;
     grid-template-columns: 100%;
     column-gap: 0;
-    grid-template-areas: 
-    "title"
-    "website"
-    "image" 
-    "text";
   }
 }
