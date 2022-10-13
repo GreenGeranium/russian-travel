@@ -1,6 +1,8 @@
 .header__links {
   margin-top: 18px;
   display: flex;
+  flex-direction: row;
+  column-gap: 18px;
 }
 
 @media screen and (max-width: 320px) {
