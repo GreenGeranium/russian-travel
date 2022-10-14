@@ -6,12 +6,6 @@
   column-gap: 18px;
 }
 
-@media screen and (max-width: 490px) {
-  .footer__links {
-    column-gap: 3px;
-  }
-}
-
 @media screen and (max-width: 510px) {
   .footer__links {
     column-gap: 0;
@@ -19,3 +13,10 @@
     row-gap: 32px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .footer__links {
+    column-gap: 3px;
+  }
+}
+
